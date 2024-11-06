@@ -1,2 +1,2 @@
 Dejen los temas de sus paginas aca para poder ponerlas en el menu
-
+Colores: 	#fadb04, #f2e062, 	#008037, #049c3c, #002456, #0047ab
