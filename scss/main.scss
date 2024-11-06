@@ -10,6 +10,17 @@
     background-position: center center;
     background-size: cover;
     height: 775px;
+    #Medio{
+        height: 40%;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        h1{
+            color: #Fadb04;
+            font-size: 60px;
+        }
+    }
 }
 header{
     height: 100px;
