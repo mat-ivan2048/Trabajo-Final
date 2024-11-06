@@ -2,16 +2,38 @@
   padding: 0;
   margin: 0; }
 
-.slider-container {
-  overflow-x: scroll;
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  scroll-snap-type: x mandatory; }
-  .slider-container img {
-    flex: 0 0 100%;
-    scroll-snap-align: center;
-    object-fit: cover; }
+.slider {
+  overflow: hidden;
+  height: 100%;
+  width: 100%; }
+  .slider ul {
+    display: flex;
+    padding: 0;
+    animation: automatico 15s infinite alternate linear;
+    width: 100%; }
+  .slider li {
+    width: 100%;
+    list-style: none; }
+  .slider img {
+    height: 100px; }
+
+@keyframes automatico {
+  0% {
+    margin-left: 0; }
+  20% {
+    margin-left: 0; }
+  25% {
+    margin-left: -100%; }
+  45% {
+    margin-left: -100%; }
+  50% {
+    margin-left: -200%; }
+  70% {
+    margin-left: -200%; }
+  75% {
+    margin-left: -300%; }
+  100% {
+    margin-left: -300%; } }
 
 #img-principal img {
   height: 450px;
@@ -27,6 +49,42 @@ body {
   position: relative;
   width: 400px;
   height: 325px; }
+  .tarjeta .Frontal {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000; }
+    .tarjeta .Frontal :hover {
+      transform: perspective(600px) rotateY(180deg); }
+    .tarjeta .Frontal img {
+      position: absolute;
+      width: 100%;
+      height: 100%; }
+    .tarjeta .Frontal h3 {
+      position: absolute;
+      bottom: 0;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 45px;
+      text-align: center;
+      line-height: 45px; }
+  .tarjeta .Trasera {
+    transform: perspective(600px) rotateY(180deg);
+    padding: 15px;
+    background: #4b733b;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; }
+    .tarjeta .Trasera :hover {
+      transform: perspective(600px) rotateY(360deg); }
+    .tarjeta .Trasera h3 {
+      font-size: 30px;
+      margin-top: 5%;
+      letter-spacing: 2px; }
+    .tarjeta .Trasera p {
+      letter-spacing: 1px;
+      padding-bottom: 12%; }
 
 .nro1 {
   grid-area: 'foto1'; }
@@ -81,50 +139,6 @@ body {
   border-radius: 10px;
   overflow: hidden;
   transition: .5s; }
-
-.Frontal {
-  transform: perspective(600px) rotateY(0deg);
-  box-shadow: 0 5px 10px #000; }
-
-.Frontal img {
-  position: absolute;
-  width: 100%;
-  height: 100%; }
-
-.Frontal h3 {
-  position: absolute;
-  bottom: 0;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.4);
-  width: 100%;
-  height: 45px;
-  text-align: center;
-  line-height: 45px; }
-
-.Trasera {
-  transform: perspective(600px) rotateY(180deg);
-  padding: 15px;
-  background: #4b733b;
-  color: #000;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center; }
-
-.Trasera h3 {
-  font-size: 30px;
-  margin-top: 5%;
-  letter-spacing: 2px; }
-
-.Trasera p {
-  letter-spacing: 1px;
-  padding-bottom: 12%; }
-
-.tarjeta:hover .Frontal {
-  transform: perspective(600px) rotateY(180deg); }
-
-.tarjeta:hover .Trasera {
-  transform: perspective(600px) rotateY(360deg); }
 
 #fotoFondo {
   background-image: url(../assets/img/estatua-cristo-redentor-en-rio-de-janeiro-brazil-11774.webp);
