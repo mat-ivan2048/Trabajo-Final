@@ -36,7 +36,7 @@
         align-items:start;
         #flechaimg{
             height: 100px;
-            animation: bajar 4s infinite;
+            animation: bajar 1.5s infinite;
         }
     }
 }
@@ -75,11 +75,11 @@ header:hover{
         color: #049c3c;
     }
 }
-@keyframes bajar{
-    from{
-        left: 0px;
-    }to{
-        left: 200px;
-        background-color: #002456;
+@keyframes bajar {
+    from {
+      transform: translate(0, 0);
     }
-}
+    to {
+      transform: translate(0, 100%);
+    }
+  }

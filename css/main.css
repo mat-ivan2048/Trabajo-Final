@@ -155,7 +155,7 @@ body {
     align-items: start; }
     #fotoFondo #Flecha #flechaimg {
       height: 100px;
-      animation: bajar 4s infinite; }
+      animation: bajar 1.5s infinite; }
 
 header {
   height: 100px;
@@ -189,7 +189,6 @@ header:hover {
 
 @keyframes bajar {
   from {
-    left: 0px; }
+    transform: translate(0, 0); }
   to {
-    left: 200px;
-    background-color: #002456; } }
+    transform: translate(0, 100%); } }
