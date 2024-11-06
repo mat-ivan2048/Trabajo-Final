@@ -25,19 +25,24 @@ header{
     }
     ul{
         display: flex;
+        width: 84%;
         justify-content: end;
         li{
             display: inline;
             a{
                 text-decoration: none !important;
                 justify-content: end;
-                color: rgb(0, 60, 128);
+                padding-right: 24px;
+                color: #002456;
                 font-size: 25px;
             }
         }
     }
 }
 header:hover{
-    background-color: rgb(255, 255, 255);
+    background-color: #F2e062;
     background-image: none;
+    a{
+        color: #049c3c;
+    }
 }

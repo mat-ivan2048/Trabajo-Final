@@ -140,15 +140,19 @@ header {
     height: 90%; }
   header ul {
     display: flex;
+    width: 84%;
     justify-content: end; }
     header ul li {
       display: inline; }
       header ul li a {
         text-decoration: none !important;
         justify-content: end;
-        color: #003c80;
+        padding-right: 24px;
+        color: #002456;
         font-size: 25px; }
 
 header:hover {
-  background-color: white;
+  background-color: #F2e062;
   background-image: none; }
+  header:hover a {
+    color: #049c3c; }
