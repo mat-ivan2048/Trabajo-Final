@@ -6,18 +6,11 @@
   height: 450px;
   width: 100%; }
 
-#timeline {
+body {
   background-color: yellow; }
 
-#grid {
-  align-items: center;
-  display: grid;
-  justify-items: center;
-  height: 2550px;
-  width: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: 'foto1 foto2 foto3' 'foto4 foto5 foto6' 'foto7 foto8 foto9' 'foto10 foto11 foto12' 'foto13 foto14 foto15'; }
+#timeline {
+  background-color: yellow; }
 
 .tarjeta {
   position: relative;
