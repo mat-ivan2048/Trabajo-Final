@@ -1,0 +1,6 @@
+.slider-container{
+    scroll-snap-type: x mandatory;
+    img{
+        scroll-snap-align: center;
+    }    
+}
