@@ -16,6 +16,52 @@ body{
     position: relative;
     width: 400px;
     height: 325px;
+    .Frontal{
+        :hover{
+            transform: perspective(600px) rotateY(180deg);
+        }
+        transform: perspective(600px) rotateY(0deg);
+        box-shadow: 0 5px 10px #000;
+        img{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        h3{
+            position: absolute;
+            bottom: 0;
+            color: white;
+            background-color: rgba(0, 0, 0, .4);
+            width: 100%;
+            height: 45px;
+            text-align: center;
+            line-height: 45px;
+        
+        }
+    }
+    .Trasera{
+        :hover{
+            transform: perspective(600px) rotateY(360deg);
+        }
+        transform: perspective(600px) rotateY(180deg);
+        padding: 15px;
+        background: #4b733b;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        h3{
+            font-size: 30px;
+            margin-top: 5%;
+            letter-spacing: 2px;
+        }
+        p{
+            letter-spacing: 1px;
+            padding-bottom: 12%;
+        }
+    
+    }
 }
 .nro1{
     grid-area: 'foto1';
@@ -70,49 +116,4 @@ body{
     border-radius: 10px;
     overflow: hidden;
     transition: .5s;
-}
-.Frontal{
-    transform: perspective(600px) rotateY(0deg);
-    box-shadow: 0 5px 10px #000;
-}
-.Frontal img{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-.Frontal h3{
-    position: absolute;
-    bottom: 0;
-    color: white;
-    background-color: rgba(0, 0, 0, .4);
-    width: 100%;
-    height: 45px;
-    text-align: center;
-    line-height: 45px;
-
-}
-.Trasera{
-    transform: perspective(600px) rotateY(180deg);
-    padding: 15px;
-    background: #4b733b;
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-}
-.Trasera h3{
-    font-size: 30px;
-    margin-top: 5%;
-    letter-spacing: 2px;
-}
-.Trasera p{
-    letter-spacing: 1px;
-    padding-bottom: 12%;
-}
-.tarjeta:hover .Frontal{
-    transform: perspective(600px) rotateY(180deg);
-}
-.tarjeta:hover .Trasera{
-    transform: perspective(600px) rotateY(360deg);
 }
