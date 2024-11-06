@@ -2,6 +2,17 @@
   padding: 0;
   margin: 0; }
 
+.slider-container {
+  overflow-x: scroll;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-type: x mandatory; }
+  .slider-container img {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+    object-fit: cover; }
+
 #img-principal img {
   height: 450px;
   width: 100%; }
@@ -122,6 +133,29 @@ body {
   background-position: center center;
   background-size: cover;
   height: 775px; }
+  #fotoFondo #Medio {
+    height: 60%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center; }
+    #fotoFondo #Medio h1 {
+      color: #002456;
+      font-size: 55px;
+      font-family: 'Comfortaa'; }
+    #fotoFondo #Medio h2 {
+      font-size: 30px;
+      color: #Fadb04;
+      font-family: 'Comfortaa'; }
+  #fotoFondo #Flecha {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: end; }
+    #fotoFondo #Flecha img {
+      height: 100px;
+      animation: baja 3s infinite; }
 
 header {
   height: 100px;
@@ -136,15 +170,19 @@ header {
     height: 90%; }
   header ul {
     display: flex;
+    width: 84%;
     justify-content: end; }
     header ul li {
       display: inline; }
       header ul li a {
         text-decoration: none !important;
         justify-content: end;
-        color: #003c80;
+        padding-right: 24px;
+        color: #002456;
         font-size: 25px; }
 
 header:hover {
-  background-color: white;
+  background-color: #F2e062;
   background-image: none; }
+  header:hover a {
+    color: #049c3c; }

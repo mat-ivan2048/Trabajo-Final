@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+@import "mundo.scss";
 @import "historia.scss";
 #fotoFondo{
     background-image: url(../assets/img/estatua-cristo-redentor-en-rio-de-janeiro-brazil-11774.webp);
@@ -10,6 +11,34 @@
     background-position: center center;
     background-size: cover;
     height: 775px;
+    #Medio{
+        height: 60%;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        h1{
+            color: #002456;
+            font-size: 55px;
+            font-family: 'Comfortaa';
+        }
+        h2{
+            font-size: 30px;
+            color: #Fadb04;
+            font-family: 'Comfortaa';
+        }
+    }
+    #Flecha{
+        display: flex;
+        width: 100%;
+        height: 20%;
+        justify-content: center;
+        align-items:end;
+        img{
+            height: 100px;
+            animation: baja 3s infinite;
+        }
+    }
 }
 header{
     height: 100px;
@@ -25,19 +54,24 @@ header{
     }
     ul{
         display: flex;
+        width: 84%;
         justify-content: end;
         li{
             display: inline;
             a{
                 text-decoration: none !important;
                 justify-content: end;
-                color: rgb(0, 60, 128);
+                padding-right: 24px;
+                color: #002456;
                 font-size: 25px;
             }
         }
     }
 }
 header:hover{
-    background-color: rgb(255, 255, 255);
+    background-color: #F2e062;
     background-image: none;
+    a{
+        color: #049c3c;
+    }
 }
