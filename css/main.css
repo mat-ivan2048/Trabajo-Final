@@ -208,6 +208,9 @@ header:hover {
     transform: translate(0, 100%); } }
 
 #temasDesta {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   width: 100%;
   height: 600px;
   background-color: #002456; }
@@ -222,17 +225,39 @@ header:hover {
       font-size: 40px;
       color: #049c3c; }
   #temasDesta .slider {
-    display: flex;
-    justify-self: center;
+    display: inline-block;
+    margin-left: 425px;
     width: 100%;
     max-width: 750px;
     height: 85%;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
-    #temasDesta .slider img {
-      width: 100%;
-      height: 500px;
-      object-fit: cover;
-      scroll-snap-align: center; }
+
+.osi {
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  scroll-snap-align: center; }
+
+.o1 {
+  background-image: url(../assets/img/menuhistoria.jpg);
+  height: 100%;
+  width: 100%; }
+
+.o2 {
+  background-image: url(../assets/img/i.jpg);
+  height: 100%;
+  width: 100%; }
+
+.o3 {
+  background-image: url(../assets/img/galeri.jpg);
+  height: 100%;
+  width: 100%; }
+
+.o4 {
+  background-image: url(../assets/img/tursim.jpg);
+  height: 100%;
+  width: 100%; }
