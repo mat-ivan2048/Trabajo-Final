@@ -35,6 +35,9 @@
   100% {
     margin-left: -300%; } }
 
+.trans {
+  background-image: linear-gradient(to bottom yellow, #1295ac); }
+
 #img-principal img {
   height: 450px;
   width: 100%; }
