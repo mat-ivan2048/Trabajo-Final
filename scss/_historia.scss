@@ -5,9 +5,12 @@
         width: 100%;
     }
 }
-
 #timeline{
     background-color: yellow;
+    position: relative;
+    margin: 100px auto;
+    
+
 }
 
 .tarjeta{
@@ -114,4 +117,11 @@
     border-radius: 10px;
     overflow: hidden;
     transition: .5s;
+}
+.contenedor-derecho{
+    right: 50%;
+}
+
+.contenedor-izquierdo{
+    left: 0;
 }
