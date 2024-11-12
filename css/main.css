@@ -110,6 +110,26 @@ header img {
   overflow: hidden;
   transition: .5s; }
 
+#imagenmat {
+  height: 50%;
+  width: 50% !important; }
+
+.fauna {
+  text-align: center;
+  align-items: center; }
+  .fauna img {
+    height: 50%;
+    width: 50% !important; }
+
+h2 {
+  text-align: center; }
+
+h1 {
+  text-align: center; }
+
+body {
+  background-color: black; }
+
 #fotoFondo {
   background-image: url(../assets/img/estatua-cristo-redentor-en-rio-de-janeiro-brazil-11774.webp);
   width: 100%;
