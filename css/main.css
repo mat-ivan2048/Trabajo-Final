@@ -20,10 +20,36 @@
       position: center;
       color: yellowgreen;
       font-size: 50px;
-      font-family: 'Lucida Sans'; }
+      font-family: 'Comfortaa'; }
 
 .trans {
-  background-image: linear-gradient(to bottom, yellow, #1295ac); }
+  height: 100px;
+  background-image: linear-gradient(to bottom, yellow, #2369ff); }
+
+#playa-princ {
+  width: 100%;
+  height: 500px; }
+
+#masvisitado {
+  margin-left: 10%;
+  margin-right: 10%; }
+
+#masvisitado ul {
+  list-style: none;
+  text-decoration: none; }
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px; }
+
+p {
+  font-size: 20px; }
+
+table {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
 
 #img-principal img {
   height: 450px;
@@ -134,6 +160,23 @@
 
 .tarjeta:hover .Trasera {
   transform: perspective(600px) rotateY(360deg); }
+
+#imagenmat {
+  height: 50%;
+  width: 50% !important; }
+
+.fauna {
+  text-align: center;
+  align-items: center; }
+
+#h2 titulomat {
+  text-align: center; }
+
+.h1 {
+  text-align: center; }
+
+.body {
+  background-color: black; }
 
 #fotoFondo {
   background-image: url(../assets/img/estatua-cristo-redentor-en-rio-de-janeiro-brazil-11774.webp);
@@ -283,18 +326,20 @@ header:hover {
   height: 100vh;
   align-items: center;
   font-family: 'Comfortaa'; }
-  #atractivos h1 {
-    color: #Fadb04;
-    font-size: 55px;
-    right: 80px; }
-  #atractivos h2 {
-    color: white; }
-  #atractivos .ciudad {
-    border-radius: 50px;
-    border: 0px;
-    height: 75px;
-    width: 150px;
-    font-family: 'Comfortaa';
-    background-color: #002456;
-    color: white;
-    font-size: 20px; }
+  #atractivos div {
+    padding-left: 30px; }
+    #atractivos div h1 {
+      color: #Fadb04;
+      font-size: 55px;
+      right: 80px; }
+    #atractivos div h2 {
+      color: white; }
+    #atractivos div .ciudad {
+      border-radius: 50px;
+      border: 0px;
+      height: 75px;
+      width: 150px;
+      font-family: 'Comfortaa';
+      background-color: #002456;
+      color: white;
+      font-size: 20px; }
