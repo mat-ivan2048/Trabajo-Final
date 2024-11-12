@@ -17,7 +17,6 @@
         :hover{
             transform: perspective(600px) rotateY(180deg);
         }
-        transform: perspective(600px) rotateY(0deg);
         box-shadow: 0 5px 10px #000;
         img{
             position: absolute;
@@ -40,7 +39,7 @@
         :hover{
             transform: perspective(600px) rotateY(360deg);
         }
-        transform: perspective(600px) rotateY(180deg);
+        
         padding: 15px;
         background: #4b733b;
         color: #000;
