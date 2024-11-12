@@ -142,12 +142,6 @@
   overflow: hidden;
   transition: .5s; }
 
-.contenedor-derecho {
-  right: 50%; }
-
-.contenedor-izquierdo {
-  left: 0; }
-
 #fotoFondo {
   background-image: url(../assets/img/estatua-cristo-redentor-en-rio-de-janeiro-brazil-11774.webp);
   width: 100%;
