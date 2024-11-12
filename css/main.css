@@ -22,9 +22,14 @@
       font-size: 50px;
       font-family: 'Comfortaa'; }
 
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6klyijK2vEPJcFLYMiIOVb2kaHpXHI1VeTg&s);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .trans {
   height: 100px;
-  background-image: linear-gradient(to bottom, yellow, #2369ff); }
+  background-image: linear-gradient(to bottom, #3E89CB); }
 
 #playa-princ {
   width: 100%;
@@ -32,9 +37,19 @@
 
 #masvisitado {
   margin-left: 10%;
-  margin-right: 10%; }
+  margin-right: 10%;
+  height: 300px; }
+  #masvisitado p {
+    display: flex;
+    justify-content: center; }
 
-#masvisitado ul {
+td {
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: black; }
+
+#masvisitado td {
   list-style: none;
   text-decoration: none; }
 
@@ -50,58 +65,25 @@ p {
   height: 450px;
   width: 100%; }
 
-#timeline {
+.body-historia {
   background-color: yellow; }
 
+.timeline {
+  background-color: yellow;
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+  height: 1000px; }
+
 .tarjeta {
+  padding: 50px;
   position: relative;
   width: 300px;
   height: 350px; }
-
-.nro1 {
-  grid-area: 'foto1'; }
-
-.nro2 {
-  grid-area: 'foto2'; }
-
-.nro3 {
-  grid-area: 'foto3'; }
-
-.nro4 {
-  grid-area: 'foto4'; }
-
-.nro5 {
-  grid-area: 'foto5'; }
-
-.nro6 {
-  grid-area: 'foto6'; }
-
-.nro7 {
-  grid-area: 'foto7'; }
-
-.nro8 {
-  grid-area: 'foto8'; }
-
-.nro9 {
-  grid-area: 'foto9'; }
-
-.nro10 {
-  grid-area: 'foto10'; }
-
-.nro11 {
-  grid-area: 'foto11'; }
-
-.nro12 {
-  grid-area: 'foto12'; }
-
-.nro13 {
-  grid-area: 'foto13'; }
-
-.nro14 {
-  grid-area: 'foto14'; }
-
-.nro15 {
-  grid-area: 'foto15'; }
+  .tarjeta .izquierda {
+    right: 0; }
+  .tarjeta .derecha {
+    right: 50%; }
 
 .cara {
   position: absolute;
