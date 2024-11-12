@@ -61,67 +61,29 @@ h2 {
 p {
   font-size: 20px; }
 
-table {
-  display: flex;
-  justify-content: center;
-  width: 100%; }
-
 #img-principal img {
   height: 450px;
   width: 100%; }
 
-#timeline {
+.body-historia {
   background-color: yellow; }
 
+.timeline {
+  background-color: yellow;
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+  height: 1000px; }
+
 .tarjeta {
+  padding: 50px;
   position: relative;
   width: 300px;
   height: 350px; }
-
-.nro1 {
-  grid-area: 'foto1'; }
-
-.nro2 {
-  grid-area: 'foto2'; }
-
-.nro3 {
-  grid-area: 'foto3'; }
-
-.nro4 {
-  grid-area: 'foto4'; }
-
-.nro5 {
-  grid-area: 'foto5'; }
-
-.nro6 {
-  grid-area: 'foto6'; }
-
-.nro7 {
-  grid-area: 'foto7'; }
-
-.nro8 {
-  grid-area: 'foto8'; }
-
-.nro9 {
-  grid-area: 'foto9'; }
-
-.nro10 {
-  grid-area: 'foto10'; }
-
-.nro11 {
-  grid-area: 'foto11'; }
-
-.nro12 {
-  grid-area: 'foto12'; }
-
-.nro13 {
-  grid-area: 'foto13'; }
-
-.nro14 {
-  grid-area: 'foto14'; }
-
-.nro15 {
-  grid-area: 'foto15'; }
+  .tarjeta .izquierda {
+    right: 0; }
+  .tarjeta .derecha {
+    right: 50%; }
 
 .cara {
   position: absolute;
