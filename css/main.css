@@ -43,9 +43,7 @@
   width: 100%; }
 
 #timeline {
-  background-color: yellow;
-  position: relative;
-  margin: 100px auto; }
+  background-color: yellow; }
 
 .tarjeta {
   position: relative;
