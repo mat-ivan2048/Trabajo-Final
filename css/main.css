@@ -20,6 +20,7 @@ header img {
   width: 400px;
   height: 325px; }
   .tarjeta .Frontal {
+    transform: perspective(600px) rotateY(0deg);
     box-shadow: 0 5px 10px #000; }
     .tarjeta .Frontal :hover {
       transform: perspective(600px) rotateY(180deg); }
@@ -37,6 +38,7 @@ header img {
       text-align: center;
       line-height: 45px; }
   .tarjeta .Trasera {
+    transform: perspective(600px) rotateY(180deg);
     padding: 15px;
     background: #4b733b;
     color: #000;
