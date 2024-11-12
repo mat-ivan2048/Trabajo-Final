@@ -178,22 +178,25 @@ header:hover{
     height: 100vh;
     align-items: center;
     font-family: 'Comfortaa';
-    h1{
-        color: #Fadb04;
-        font-size: 55px;
-        right: 80px;
-    }
-    h2{
-        color: white;
-    }
-    .ciudad{
-        border-radius: 50px;
-        border: 0px;
-        height: 75px;
-        width: 150px;
-        font-family: 'Comfortaa';
-        background-color: #002456;
-        color: white;
-        font-size: 20px;
+    div{
+        padding-left: 30px;
+        h1{
+            color: #Fadb04;
+            font-size: 55px;
+            right: 80px;
+        }
+        h2{
+            color: white;
+        }
+        .ciudad{
+            border-radius: 50px;
+            border: 0px;
+            height: 75px;
+            width: 150px;
+            font-family: 'Comfortaa';
+            background-color: #002456;
+            color: white;
+            font-size: 20px;
+        }  
     }
 }
