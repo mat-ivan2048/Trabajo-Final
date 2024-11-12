@@ -20,7 +20,7 @@
       position: center;
       color: yellowgreen;
       font-size: 50px;
-      font-family: 'Lucida Sans'; }
+      font-family: 'Comfortaa'; }
 
 .trans {
   height: 100px;
@@ -164,13 +164,13 @@ p {
   text-align: center;
   align-items: center; }
 
-h2 {
+#h2 titulomat {
   text-align: center; }
 
-h1 {
+.h1 {
   text-align: center; }
 
-body {
+.body {
   background-color: black; }
 
 #fotoFondo {
