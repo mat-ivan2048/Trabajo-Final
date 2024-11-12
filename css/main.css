@@ -23,7 +23,28 @@
       font-family: 'Lucida Sans'; }
 
 .trans {
-  background-image: linear-gradient(to bottom, yellow, #1295ac); }
+  height: 100px;
+  background-image: linear-gradient(to bottom, yellow, #2369ff); }
+
+#playa-princ {
+  width: 100%;
+  height: 500px; }
+
+#masvisitado {
+  margin-left: 10%;
+  margin-right: 10%; }
+
+#masvisitado ul {
+  list-style: none;
+  text-decoration: none; }
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px; }
+
+p {
+  font-size: 20px; }
 
 #img-principal img {
   height: 450px;
