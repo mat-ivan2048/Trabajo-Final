@@ -22,6 +22,11 @@
       font-size: 50px;
       font-family: 'Comfortaa'; }
 
+#carouselExampleCaptions {
+  margin: 10%;
+  padding: 15%;
+  height: 150px; }
+
 body {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6klyijK2vEPJcFLYMiIOVb2kaHpXHI1VeTg&s);
   background-repeat: no-repeat;
