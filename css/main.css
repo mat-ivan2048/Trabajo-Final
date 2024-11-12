@@ -2,8 +2,25 @@
   padding: 0;
   margin: 0; }
 
-header img {
-  padding: 0; }
+#Fondo {
+  background-image: url(../assets/img/Mundo/industria.jpg);
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+  #Fondo #titulo {
+    position: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 60%; }
+    #Fondo #titulo h2 {
+      position: center;
+      color: yellowgreen;
+      font-size: 50px;
+      font-family: 'Lucida Sans'; }
 
 .trans {
   background-image: linear-gradient(to bottom, yellow, #1295ac); }
@@ -17,44 +34,8 @@ header img {
 
 .tarjeta {
   position: relative;
-  width: 400px;
-  height: 325px; }
-  .tarjeta .Frontal {
-    transform: perspective(600px) rotateY(0deg);
-    box-shadow: 0 5px 10px #000; }
-    .tarjeta .Frontal :hover {
-      transform: perspective(600px) rotateY(0deg); }
-    .tarjeta .Frontal img {
-      position: absolute;
-      width: 100%;
-      height: 100%; }
-    .tarjeta .Frontal h3 {
-      position: absolute;
-      bottom: 0;
-      color: white;
-      background-color: rgba(0, 0, 0, 0.4);
-      width: 100%;
-      height: 45px;
-      text-align: center;
-      line-height: 45px; }
-  .tarjeta .Trasera {
-    transform: perspective(600px) rotateY(180deg);
-    padding: 15px;
-    background: #4b733b;
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center; }
-    .tarjeta .Trasera :hover {
-      transform: perspective(600px) rotateY(180deg); }
-    .tarjeta .Trasera h3 {
-      font-size: 30px;
-      margin-top: 5%;
-      letter-spacing: 2px; }
-    .tarjeta .Trasera p {
-      letter-spacing: 1px;
-      padding-bottom: 12%; }
+  width: 300px;
+  height: 350px; }
 
 .nro1 {
   grid-area: 'foto1'; }
@@ -110,6 +91,50 @@ header img {
   overflow: hidden;
   transition: .5s; }
 
+.Frontal {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000; }
+
+.Frontal img {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+.Frontal h3 {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  line-height: 45px; }
+
+.Trasera {
+  transform: perspective(600px) rotateY(180deg);
+  padding: 15px;
+  background: #4b733b;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center; }
+
+.Trasera h3 {
+  font-size: 30px;
+  margin-top: 5%;
+  letter-spacing: 2px; }
+
+.Trasera p {
+  letter-spacing: 1px;
+  padding-bottom: 12%; }
+
+.tarjeta:hover .Frontal {
+  transform: perspective(600px) rotateY(180deg); }
+
+.tarjeta:hover .Trasera {
+  transform: perspective(600px) rotateY(360deg); }
+
 #imagenmat {
   height: 50%;
   width: 50% !important; }
@@ -117,9 +142,6 @@ header img {
 .fauna {
   text-align: center;
   align-items: center; }
-  .fauna img {
-    height: 50%;
-    width: 50% !important; }
 
 h2 {
   text-align: center; }
@@ -202,7 +224,7 @@ header:hover {
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: 600px;
+  height: 700px;
   background-color: #002456; }
   #temasDesta .temasDestaTitu {
     display: flex;
@@ -230,24 +252,68 @@ header:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  scroll-snap-align: center; }
+  scroll-snap-align: center;
+  font-family: 'Comfortaa';
+  color: white; }
 
-.o1 {
+.o1, .o2, .o3, .o4 {
+  display: flex;
   background-image: url(../assets/img/menuhistoria.jpg);
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end; }
+  .o1 div, .o2 div, .o3 div, .o4 div {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    width: 100%;
+    height: 80px;
+    padding-left: 3%;
+    background-color: rgba(0, 0, 0, 0.664);
+    transition: all 1s; }
 
 .o2 {
-  background-image: url(../assets/img/i.jpg);
-  height: 100%;
-  width: 100%; }
+  background-image: url(../assets/img/i.jpg); }
 
 .o3 {
-  background-image: url(../assets/img/galeri.jpg);
-  height: 100%;
-  width: 100%; }
+  background-image: url(../assets/img/galeri.jpg); }
 
 .o4 {
-  background-image: url(../assets/img/tursim.jpg);
-  height: 100%;
-  width: 100%; }
+  background-image: url(../assets/img/tursim.jpg); }
+  .o4 div {
+    height: 90px; }
+
+.o1:hover div, .o2:hover div, .o3:hover div, .o4:hover div {
+  opacity: 1; }
+
+#atractivos {
+  display: flex;
+  background-image: url(../assets/img/SaoPauloImgMenu.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+  font-family: 'Comfortaa'; }
+  #atractivos div {
+    padding-left: 30px; }
+    #atractivos div h1 {
+      color: #Fadb04;
+      font-size: 55px;
+      right: 80px; }
+    #atractivos div h2 {
+      color: white; }
+    #atractivos div .ciudad {
+      border-radius: 50px;
+      border: 0px;
+      height: 75px;
+      width: 150px;
+      font-family: 'Comfortaa';
+      background-color: #002456;
+      color: white;
+      font-size: 20px; }
