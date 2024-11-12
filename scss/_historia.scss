@@ -15,7 +15,7 @@
     height: 325px;
     .Frontal{
         :hover{
-            transform: perspective(600px) rotateY(180deg);
+            transform: perspective(600px) rotateY(0deg);
         }
         transform: perspective(600px) rotateY(0deg);
         box-shadow: 0 5px 10px #000;
@@ -38,7 +38,7 @@
     }
     .Trasera{
         :hover{
-            transform: perspective(600px) rotateY(360deg);
+            transform: perspective(600px) rotateY(180deg);
         }
         transform: perspective(600px) rotateY(180deg);
         padding: 15px;

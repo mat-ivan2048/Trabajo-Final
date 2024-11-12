@@ -40,7 +40,7 @@
     transform: perspective(600px) rotateY(0deg);
     box-shadow: 0 5px 10px #000; }
     .tarjeta .Frontal :hover {
-      transform: perspective(600px) rotateY(180deg); }
+      transform: perspective(600px) rotateY(0deg); }
     .tarjeta .Frontal img {
       position: absolute;
       width: 100%;
@@ -64,7 +64,7 @@
     justify-content: space-between;
     text-align: center; }
     .tarjeta .Trasera :hover {
-      transform: perspective(600px) rotateY(360deg); }
+      transform: perspective(600px) rotateY(180deg); }
     .tarjeta .Trasera h3 {
       font-size: 30px;
       margin-top: 5%;
