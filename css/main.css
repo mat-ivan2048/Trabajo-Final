@@ -22,9 +22,14 @@
       font-size: 50px;
       font-family: 'Comfortaa'; }
 
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6klyijK2vEPJcFLYMiIOVb2kaHpXHI1VeTg&s);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .trans {
   height: 100px;
-  background-image: linear-gradient(to bottom, yellow, #2369ff); }
+  background-image: linear-gradient(to bottom, #3E89CB); }
 
 #playa-princ {
   width: 100%;
@@ -32,9 +37,19 @@
 
 #masvisitado {
   margin-left: 10%;
-  margin-right: 10%; }
+  margin-right: 10%;
+  height: 300px; }
+  #masvisitado p {
+    display: flex;
+    justify-content: center; }
 
-#masvisitado ul {
+td {
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: black; }
+
+#masvisitado td {
   list-style: none;
   text-decoration: none; }
 
