@@ -22,6 +22,11 @@
       font-size: 50px;
       font-family: 'Comfortaa'; }
 
+#carouselExampleCaptions {
+  margin: 10%;
+  padding: 15%;
+  height: 150px; }
+
 body {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6klyijK2vEPJcFLYMiIOVb2kaHpXHI1VeTg&s);
   background-repeat: no-repeat;
@@ -71,24 +76,21 @@ table {
   width: 100%; }
 
 .body-historia {
-  background-color: yellow; }
+  background-color: yellow;
+  height: 10000px; }
 
 .timeline {
   background-color: yellow;
   position: relative;
   max-width: 1200px;
   margin: 100px auto;
-  height: 1000px; }
+  height: 4000px; }
 
 .tarjeta {
   padding: 50px;
   position: relative;
   width: 300px;
   height: 350px; }
-  .tarjeta .izquierda {
-    right: 0; }
-  .tarjeta .derecha {
-    right: 50%; }
 
 .cara {
   position: absolute;
@@ -142,6 +144,23 @@ table {
 
 .tarjeta:hover .Trasera {
   transform: perspective(600px) rotateY(360deg); }
+
+.left-container {
+  left: 0; }
+
+.right-container {
+  left: 50%; }
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 100px;
+  background-color: #000;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1; }
 
 #imagenmat {
   height: 50%;
@@ -280,9 +299,10 @@ header:hover {
     justify-content: end;
     width: 100%;
     height: 80px;
-    padding-left: 3%;
     background-color: rgba(0, 0, 0, 0.664);
     transition: all 1s; }
+    .o1 div h1, .o2 div h1, .o3 div h1, .o4 div h1 {
+      font-size: 15px; }
 
 .o2 {
   background-image: url(../assets/img/i.jpg); }
@@ -293,7 +313,7 @@ header:hover {
 .o4 {
   background-image: url(../assets/img/tursim.jpg); }
   .o4 div {
-    height: 90px; }
+    height: 100px; }
 
 .o1:hover div, .o2:hover div, .o3:hover div, .o4:hover div {
   opacity: 1; }
@@ -309,18 +329,50 @@ header:hover {
   align-items: center;
   font-family: 'Comfortaa'; }
   #atractivos div {
-    padding-left: 30px; }
+    padding-left: 150px;
+    margin-top: 350px; }
     #atractivos div h1 {
       color: #Fadb04;
       font-size: 55px;
       right: 80px; }
     #atractivos div h2 {
-      color: white; }
+      color: white;
+      font-size: 30px; }
     #atractivos div .ciudad {
       border-radius: 50px;
       border: 0px;
-      height: 75px;
-      width: 150px;
+      height: 60px;
+      width: 200px;
+      font-family: 'Comfortaa';
+      background-color: #002456;
+      color: white;
+      font-size: 20px; }
+
+#atractivos2 {
+  display: flex;
+  background-image: url(../assets/img/salvador.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+  font-family: 'Comfortaa'; }
+  #atractivos2 div {
+    padding-left: 150px;
+    margin-top: 350px; }
+    #atractivos2 div h1 {
+      color: #Fadb04;
+      font-size: 55px;
+      right: 80px; }
+    #atractivos2 div h2 {
+      color: white;
+      font-size: 30px; }
+    #atractivos2 div .ciudad {
+      border-radius: 50px;
+      border: 0px;
+      height: 60px;
+      width: 200px;
       font-family: 'Comfortaa';
       background-color: #002456;
       color: white;

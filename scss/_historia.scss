@@ -7,13 +7,14 @@
 
 .body-historia{
     background-color: yellow;
+    height: 10000px;
 }
 .timeline{
     background-color: yellow;
     position: relative;
     max-width: 1200px;
     margin: 100px auto;
-    height: 1000px;
+    height: 4000px;
 }
 
 .tarjeta{
@@ -21,12 +22,6 @@
     position: relative;
     width: 300px;
     height: 350px;
-    .izquierda{
-        right: 0;
-    }
-    .derecha{
-        right: 50%;
-    }
 }
 
 .cara{
@@ -85,3 +80,22 @@
 }
 
 
+.left-container{
+    left: 0;
+}
+
+.right-container{
+    left: 50%;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 100px;
+    background-color: #000;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+}
