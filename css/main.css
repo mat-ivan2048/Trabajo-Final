@@ -55,6 +55,9 @@ table {
   height: 450px;
   width: 100%; }
 
+.body-historia {
+  background-color: yellow; }
+
 .timeline {
   background-color: yellow;
   position: relative;
@@ -63,7 +66,7 @@ table {
   height: 1000px; }
 
 .tarjeta {
-  padding: 10px 50px;
+  padding: 50px;
   position: relative;
   width: 300px;
   height: 350px; }
