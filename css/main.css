@@ -20,7 +20,7 @@
       position: center;
       color: yellowgreen;
       font-size: 50px;
-      font-family: 'Lucida Sans'; }
+      font-family: 'Comfortaa'; }
 
 .trans {
   height: 100px;
@@ -45,11 +45,6 @@ h2 {
 
 p {
   font-size: 20px; }
-
-table {
-  display: flex;
-  justify-content: center;
-  width: 100%; }
 
 #img-principal img {
   height: 450px;
