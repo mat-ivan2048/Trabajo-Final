@@ -199,7 +199,11 @@ header:hover{
             background-color: #002456;
             color: white;
             font-size: 20px;
+            transition: all 0.3s;
         }  
+        .ciudad:hover{
+            background-color: #0143a0;
+        }
     }
 }
 #atr1{

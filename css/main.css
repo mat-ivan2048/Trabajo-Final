@@ -344,7 +344,10 @@ header:hover {
       font-family: 'Comfortaa';
       background-color: #002456;
       color: white;
-      font-size: 20px; }
+      font-size: 20px;
+      transition: all 0.3s; }
+    .atractivos div .ciudad:hover {
+      background-color: #0143a0; }
 
 #atr1 {
   background-image: url(../assets/img/SaoPauloImgMenu.jpg); }
