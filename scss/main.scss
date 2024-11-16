@@ -52,7 +52,6 @@ header{
     background-image: linear-gradient(to top, rgba(83, 83, 83, 0), rgba(0, 155, 13, 0.438),);
     #logo{
         width: 16%;
-        padding-left: 5%;
         height: 90%;
     }
     ul{
@@ -142,37 +141,36 @@ header:hover{
         align-items: start;
         justify-content: end;
         width: 100%;
-        height: 80px;
+        height: 120px;
         background-color: rgba(0, 0, 0, 0.664);
         transition: all 1s;
         h1{
-            font-size: 15px
+            font-size: 10px
         }
     }
 }
 .o2{
     @extend .o1;
     background-image: url(../assets/img/i.jpg);
+    div{
+        height: 153px;
+    }
 }
 .o3{
-    @extend .o1;
+    @extend .o2;
     background-image: url(../assets/img/galeri.jpg);
 }
 .o4{
-    @extend .o1;
+    @extend .o3;
     background-image: url(../assets/img/tursim.jpg);
-    div{
-        height: 100px;
-    }
 }
 .o1:hover{
     div{
         opacity: 1;
     }  
 }
-#atractivos{
+.atractivos{
     display: flex;
-    background-image: url(../assets/img/SaoPauloImgMenu.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -204,37 +202,18 @@ header:hover{
         }  
     }
 }
-#atractivos2{
-    display: flex;
+#atr1{
+    background-image: url(../assets/img/SaoPauloImgMenu.jpg);
+}
+#atr2{
     background-image: url(../assets/img/salvador.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 100vh;
-    align-items: center;
-    font-family: 'Comfortaa';
-    div{
-        padding-left: 150px;
-        margin-top: 350px;
-        h1{
-            color: #Fadb04;
-            font-size: 55px;
-            right: 80px;
-        }
-        h2{
-            color: white;
-            font-size: 30px;
-        }
-        .ciudad{
-            border-radius: 50px;
-            border: 0px;
-            height: 60px;
-            width: 200px;
-            font-family: 'Comfortaa';
-            background-color: #002456;
-            color: white;
-            font-size: 20px;
-        }  
-    }
+}
+#atr3{
+    background-image: url(../assets/img/florianopolis.jpg);
+}
+#atr4{
+    background-image: url(../assets/img/riodejanerio.jpg);
+}
+#atr5{
+    background-image: url(../assets/img/na.avif);
 }
