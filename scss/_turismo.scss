@@ -1,16 +1,10 @@
-main{
-
-}
-
-body{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6klyijK2vEPJcFLYMiIOVb2kaHpXHI1VeTg&s);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .trans{
     height:100px;
     background-image: linear-gradient(to bottom, #3E89CB);
+}
+
+body{
+    background-color: white;
 }
 
 #playa-princ{
@@ -54,4 +48,9 @@ table{
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+#imgsao{
+    height: 100px;
+    width: 100px;
 }
