@@ -74,7 +74,7 @@ table {
   width: 100px; }
 
 #img-principal img {
-  height: 450px;
+  height: 700px;
   width: 100%; }
 
 .body-historia {
@@ -164,7 +164,6 @@ table {
   z-index: -1; }
 
 .timeline::after {
-  content: '';
   position: absolute;
   width: 6px;
   height: 100%;
