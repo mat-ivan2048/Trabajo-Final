@@ -1,6 +1,6 @@
 #img-principal{
     img{
-        height: 450px;
+        height: 700px;
         width: 100%;
     }
 }
@@ -8,6 +8,7 @@
 .body-historia{
     background-color: yellow;
     height: 10000px;;
+
 }
 .timeline{
     
@@ -101,7 +102,6 @@
 }
 
 .timeline::after{
-    content: '';
     position: absolute;
     width: 6px;
     height: 100%;
