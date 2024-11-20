@@ -44,6 +44,9 @@
   color: green;
   background-color: white;
   padding: 0; }
+  .historiadiv .historia1 .tarjeta1 {
+    height: 300px;
+    width: 350px; }
 
 .trans {
   height: 100px;
