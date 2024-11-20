@@ -50,7 +50,32 @@ table{
     width: 100%;
 }
 
+#sao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #imgsao{
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#txtsao{
+    text-align: center;
+    width: 40%;
+    margin-left: 10%;
+}
+
+h2{
+    margin-top: 2%;
+}
+
+#salvadorbahia{
+    height: 600px;
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
