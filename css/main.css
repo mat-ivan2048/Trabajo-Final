@@ -159,7 +159,6 @@ h2 {
   height: 10000px; }
 
 .timeline {
-  background-color: yellow;
   position: relative;
   max-width: 1200px;
   margin: 100px auto;
@@ -236,6 +235,17 @@ h2 {
   width: 15px;
   height: 100px;
   background-color: #000;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1; }
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #000;
   top: 0;
   left: 50%;
   margin-left: -3px;
@@ -442,3 +452,16 @@ header:hover {
 
 #atr5 {
   background-image: url(../assets/img/na.avif); }
+
+footer {
+  background-color: #363636;
+  color: white;
+  margin-right: 0px !important;
+  margin-left: 0px !important; }
+  footer div img {
+    height: 70px;
+    width: 70px; }
+  footer div .text-body-secondary {
+    color: white !important; }
+  footer .osi {
+    padding-left: 40% !important; }

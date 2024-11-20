@@ -7,10 +7,10 @@
 
 .body-historia{
     background-color: yellow;
-    height: 10000px;
+    height: 10000px;;
 }
 .timeline{
-    background-color: yellow;
+    
     position: relative;
     max-width: 1200px;
     margin: 100px auto;
@@ -98,4 +98,17 @@
     left: 50%;
     margin-left: -3px;
     z-index: -1;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 50%;
+    margin-left:-3px;
+    z-index: -1;
+
 }
