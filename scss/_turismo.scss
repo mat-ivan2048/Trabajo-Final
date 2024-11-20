@@ -56,6 +56,12 @@ table{
     align-items: center;
 }
 
+#sal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #imgsao{
     height: 300px;
     width: 30%;
@@ -69,13 +75,74 @@ table{
     margin-left: 10%;
 }
 
+#txtsal{
+    text-align: center;
+    width: 40%;
+}
+
 h2{
     margin-top: 2%;
 }
 
 #salvadorbahia{
-    height: 600px;
+    height: 300px;
     width: 30%;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 5%;
+}
+
+#flor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#txtflor{
+    text-align: center;
+    width: 40%;
+    margin-left: 10%;
+}
+
+#imgflor{
+    height: 300px;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#rio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#txtrio{
+    text-align: center;
+    width: 40%;
+}
+
+#imgrio{
+    height: 300px;
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+#nat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#txtnat{
+    text-align: center;
+    width: 40%;
+    margin-left: 10%;
+}
+
+#imgnat{
+    height: 300px;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
