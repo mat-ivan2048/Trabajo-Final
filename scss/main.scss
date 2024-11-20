@@ -221,3 +221,21 @@ header:hover{
 #atr5{
     background-image: url(../assets/img/na.avif);
 }
+footer{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    div{
+        img{
+            height: 70px;
+            width: 70px;
+        }
+        .text-body-secondary{
+            color: white !important;
+        }
+    } 
+    .osi{
+        padding-left: 40% !important;
+    }
+}
