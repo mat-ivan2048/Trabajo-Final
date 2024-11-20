@@ -27,14 +27,12 @@
   padding: 15%;
   height: 150px; }
 
-body {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6klyijK2vEPJcFLYMiIOVb2kaHpXHI1VeTg&s);
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 .trans {
   height: 100px;
   background-image: linear-gradient(to bottom, #3E89CB); }
+
+body {
+  background-color: white; }
 
 #playa-princ {
   width: 100%;
@@ -70,6 +68,10 @@ table {
   display: flex;
   justify-content: center;
   width: 100%; }
+
+#imgsao {
+  height: 100px;
+  width: 100px; }
 
 #img-principal img {
   height: 450px;
@@ -363,3 +365,16 @@ header:hover {
 
 #atr5 {
   background-image: url(../assets/img/na.avif); }
+
+footer {
+  background-color: #363636;
+  color: white;
+  margin-right: 0px !important;
+  margin-left: 0px !important; }
+  footer div img {
+    height: 70px;
+    width: 70px; }
+  footer div .text-body-secondary {
+    color: white !important; }
+  footer .osi {
+    padding-left: 40% !important; }
