@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0; }
 
+.body10 {
+  background-color: black; }
+
 #Fondo {
   background-image: url(../assets/img/Mundo/industria.jpg);
   width: 100%;
@@ -22,10 +25,25 @@
       font-size: 50px;
       font-family: 'Comfortaa'; }
 
+.h3historia {
+  text-align: center;
+  align-content: center;
+  color: green;
+  padding-top: 10%; }
+
 #carouselExampleCaptions {
-  margin: 10%;
+  margin: 15%;
+  margin-top: 0%;
+  margin-bottom: 5%;
   padding: 15%;
-  height: 150px; }
+  padding-top: 5%; }
+
+.historiadiv {
+  text-align: center;
+  align-content: center;
+  color: green;
+  background-color: white;
+  padding: 0; }
 
 .trans {
   height: 100px;
@@ -69,12 +87,89 @@ table {
   justify-content: center;
   width: 100%; }
 
+#sao {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#sal {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 #imgsao {
-  height: 100px;
-  width: 100px; }
+  height: 300px;
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+#txtsao {
+  text-align: center;
+  width: 40%;
+  margin-left: 10%; }
+
+#txtsal {
+  text-align: center;
+  width: 40%; }
+
+h2 {
+  margin-top: 2%; }
+
+#salvadorbahia {
+  height: 300px;
+  width: 30%;
+  margin-left: 10%;
+  margin-right: 5%; }
+
+#flor {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#txtflor {
+  text-align: center;
+  width: 40%;
+  margin-left: 10%; }
+
+#imgflor {
+  height: 300px;
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+#rio {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#txtrio {
+  text-align: center;
+  width: 40%; }
+
+#imgrio {
+  height: 300px;
+  width: 30%;
+  margin-left: 10%;
+  margin-right: 5%; }
+
+#nat {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#txtnat {
+  text-align: center;
+  width: 40%;
+  margin-left: 10%; }
+
+#imgnat {
+  height: 300px;
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%; }
 
 #img-principal img {
-  height: 450px;
+  height: 700px;
   width: 100%; }
 
 .body-historia {
@@ -164,7 +259,6 @@ table {
   z-index: -1; }
 
 .timeline::after {
-  content: '';
   position: absolute;
   width: 6px;
   height: 100%;
