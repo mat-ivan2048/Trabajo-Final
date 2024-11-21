@@ -347,6 +347,9 @@ h2 {
 .body {
   background-color: black; }
 
+.boMen {
+  background-color: #0143a0; }
+
 #fotoFondo {
   background-image: url(../assets/img/estatua-cristo-redentor-en-rio-de-janeiro-brazil-11774.webp);
   width: 100%;
@@ -547,46 +550,37 @@ footer {
 
 .osi21 {
   width: 100%;
-  height: 550px; }
-
-.cards {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-  margin-left: 2%; }
-
-.cards .red {
-  background-color: #f43f5e; }
-
-.cards .blue {
-  background-color: #3b82f6; }
-
-.cards .green {
-  background-color: #22c55e; }
-
-.cards .card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  height: 500px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 370px;
-  border-radius: 10px;
-  color: white;
-  cursor: pointer;
-  color: #002456;
-  transition: 400ms; }
-
-.cards .card p.tip {
-  font-size: 45px;
-  font-weight: 700; }
-
-.cards .card p.second-text {
-  font-size: 25px; }
+  height: 600px;
+  background-image: linear-gradient(to bottom, #0143a0, #002456);
+  font-family: 'Comfortaa'; }
+  .osi21 h2 {
+    color: #049c3c; }
+  .osi21 .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 2%; }
+    .osi21 .cards .card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      height: 500px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 370px;
+      border-radius: 10px;
+      color: white;
+      cursor: pointer;
+      color: #002456;
+      transition: 400ms; }
+      .osi21 .cards .card p.tip {
+        font-size: 45px;
+        font-weight: 700; }
+      .osi21 .cards .card p.second-text {
+        font-size: 25px; }
 
 .cards .card:hover {
   transform: scale(1.1, 1.1); }
@@ -596,13 +590,16 @@ footer {
   transform: scale(0.9, 0.9); }
 
 #card1 {
-  background-image: url(../assets/img/hisbra.jpg); }
+  background-image: url(../assets/img/hisbra.jpg);
+  color: black; }
 
 #card2 {
   background-image: url(../assets/img/1800.jpeg); }
 
 #card3 {
-  background-image: url(../assets/img/1900.jpg); }
+  background-image: url(../assets/img/1900.jpg);
+  color: #049c3c; }
 
 #card4 {
-  background-image: url(../assets/img/1800.jpeg); }
+  background-image: url(../assets/img/2000.jpg);
+  color: #0143a0; }
