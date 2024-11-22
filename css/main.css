@@ -603,3 +603,66 @@ footer {
 #card4 {
   background-image: url(../assets/img/2000.jpg);
   color: #0143a0; }
+
+@media screen and (max-width: 320px) {
+  .slider {
+    margin-left: 0px !important; }
+  #carouselExample {
+    width: 100%; }
+  .atractivos div {
+    margin-top: 250px !important;
+    padding-left: 1% !important; }
+  #atr4 div {
+    margin-top: 190px !important; }
+  .osi21 {
+    height: 2250px; }
+    .osi21 .cards {
+      flex-direction: column !important; }
+      .osi21 .cards .card {
+        width: 310px !important; }
+  footer .col-lg-9 h5 {
+    padding-right: 200px !important; }
+  footer .col-lg-9 ul {
+    padding-right: 210px !important; }
+  header {
+    height: 200px; }
+    header img {
+      width: 274px !important;
+      height: 75px !important;
+      padding-left: 35px !important;
+      padding-right: 5px !important; }
+    header ul {
+      position: relative;
+      height: 100px; }
+      header ul li {
+        width: 64px;
+        position: absolute; }
+        header ul li a {
+          font-size: 20px !important; }
+      header ul #ski3 a {
+        padding-right: 0px !important; }
+      header ul #ski {
+        padding: 0;
+        left: 100px;
+        bottom: -20;
+        bottom: -30;
+        top: 35px;
+        width: 200px; }
+      header ul #ski2 {
+        left: 160px; }
+      header ul #ski0 {
+        left: 80px; }
+      header ul #skii {
+        left: 20px; }
+  #Medio {
+    display: flex;
+    margin-top: 20px;
+    height: 200px !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start !important; }
+    #Medio h2 {
+      margin-bottom: 0px;
+      margin-top: 0px; }
+  .temasDestaTitu {
+    padding-left: 20px !important; } }
