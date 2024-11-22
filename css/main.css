@@ -604,7 +604,7 @@ footer {
   background-image: url(../assets/img/2000.jpg);
   color: #0143a0; }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .slider {
     margin-left: 0px !important; }
   #carouselExample {
