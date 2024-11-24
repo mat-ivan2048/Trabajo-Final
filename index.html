@@ -12,16 +12,16 @@
     <title>Brasil</title>
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 </head>
-<body>
+<body class="boMen">
     <div id="fotoFondo">
-        <header>
-            <img src="assets/img/letras.webp" alt="" id="logo"><!-----Sacar padding para arreglar el espacio en telefono-------->
-            <ul>
-                <li><a href="index.html">Menu</a></li>
-                <li><a href="paginas/historia.html">Historia</a></li>
-                <li><a href="paginas/mundo.html">Comercio e Industria</a></li>
-                <li><a href="paginas/turismo.html">Turismo</a></li>
-                <li><a href="paginas/faunaflora.html">Galeria</a></li>
+        <header class="row container-fluid" style="margin-left: 0px; margin-right: 0px; padding-right: 0px; padding-left: 0px;">
+            <img src="assets/img/letras.webp" alt="" id="logo" class="col-sm-12 col-lg-3"><!-----Sacar padding para arreglar el espacio en telefono-------->
+            <ul class="col-sm-12 col-lg-9">
+                <li id="skii"><a href="index.html">Menu</a></li>
+                <li id="ski0"><a href="paginas/historia.html">Historia</a></li>
+                <li id="ski"><a href="paginas/mundo.html">Comercio e Industria</a></li>
+                <li id="ski2"><a href="paginas/turismo.html">Turismo</a></li>
+                <li id="ski3"><a href="paginas/faunaflora.html">Galeria</a></li>
             </ul>
         </header>
         <div id="Medio">
@@ -48,7 +48,7 @@
     </div>
 
     <div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
+  <div class="carousel-inner" id="ciuda">
     <div class="carousel-item active">
       <div class="atractivos" id="atr1">
         <div>
@@ -94,53 +94,34 @@
     <span class="visually-hidden">Next</span>
   </button>
     </div>
-    <div style="background-color: rgb(54, 54, 54)">    
-        <video width="100%" height="100%" autoplay loop muted>
+    <div style="background-color: #0143a0">    
+        <video width="100%" height="100%" id="vid" autoplay loop muted>
             <source src="assets/videos/Brazil 🇧🇷 in 4K 60FPS ULTRA HD Video by Drone.mp4" type="video/mp4">
             <source src="assets/videos/Brazil 🇧🇷 in 4K 60FPS ULTRA HD Video by Drone.mp4" type="video/webm">
             <p>Tu navegador no admite la etiqueta de video.</p>
         </video>
     </div>
-    <div class="osi21">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
+    <div class="osi21" id="His">
+      <h2 style="margin-top: 20px; margin-bottom: 20px;">Historia de Brasil</h2>
+        <div class="cards">
+            <div class="card red"id="card1"onclick="location.href='paginas/historia.html'">
+                <p class="tip">AC-SigloXVII</p>
+                <p class="second-text"><strong>Colonización portuguesa, economía azucarera, esclavitud africana, expansión y conflictos indígenas.</strong></p>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </div>
-
-
-    <div class="parent">
-        <div class="card">
-            <div class="content-box">
-                <span class="card-title">3D Card</span>
-                <p class="card-content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                </p>
-                <span class="see-more">See More</span>
+            <div class="card blue "id="card2"onclick="location.href='paginas/historia.html'">
+                <p class="tip">1800-1900</p>
+                <p class="second-text"><strong>Independencia, monarquía, esclavitud, café, inmigración, abolicionismo, república, estabilidad, cambios, transformación.</strong></p>
             </div>
-            <div class="date-box">
-                <span class="month">JUNE</span>
-                <span class="date">29</span>
+            <div class="card green"id="card3"onclick="location.href='paginas/historia.html'">
+                <p class="tip">1900-2000</p>
+                <p class="second-text"><strong>República, dictadura, guerra, crecimiento económico, democracia, crisis, Lula, estabilización, reformas, corrupción.</strong></p>
+            </div>
+            <div class="card green"id="card4"onclick="location.href='paginas/historia.html'">
+                <p class="tip">2000-2024</p>
+                <p class="second-text"><strong>Crecimiento, crisis económica, polarización, pandemia, impeachment, Lula, Bolsonaro, democracia, protestas, recuperación.</strong></p>
             </div>
         </div>
-      </div>
+    </div>
 
 
 
@@ -163,10 +144,10 @@
         <div class="col mb-3">
           <h5>Menu</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#temasDesta" class="nav-link p-0 text-body-secondary">Temas Destacados</a></li>
+            <li class="nav-item mb-2"><a href="#ciuda" class="nav-link p-0 text-body-secondary">Ciudades Destacas</a></li>
+            <li class="nav-item mb-2"><a href="#vid" class="nav-link p-0 text-body-secondary">Video Introductorio</a></li>
+            <li class="nav-item mb-2"><a href="#His" class="nav-link p-0 text-body-secondary">Historia por decada</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
           </ul>
         </div>
