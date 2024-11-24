@@ -167,7 +167,7 @@ table {
 
 .body-historia {
   background-color: yellow;
-  height: 12000px; }
+  height: 14000px; }
 
 .linea-vertical {
   height: 10000px;
@@ -187,7 +187,7 @@ table {
   padding: 50px;
   position: relative;
   width: 400px;
-  height: 450px; }
+  height: 500px; }
 
 .cara {
   position: absolute;
@@ -329,6 +329,11 @@ table {
 
 .card:hover .img-content svg {
   fill: transparent; }
+
+#carouselExampleFade {
+  height: 600px;
+  width: 100%;
+  margin-top: 150px; }
 
 #imagenmat {
   height: 50%;
