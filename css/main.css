@@ -733,6 +733,7 @@ header:hover {
   background-image: url(../assets/img/na.avif); }
 
 footer {
+  margin-top: 0px !important;
   background-color: #363636;
   color: white;
   margin-right: 0px !important;
