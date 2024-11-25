@@ -275,6 +275,18 @@ footer{
     .slider{
         margin-left: 120px !important;
     }
+    .osi21{
+        height: 2250px;
+        display: flex;
+        justify-content: center;
+        .cards{
+            flex-direction: column !important;
+            margin-left: 0px !important;
+            .card{
+                width: 310px !important;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 500px){

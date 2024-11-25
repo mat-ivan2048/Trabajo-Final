@@ -810,7 +810,16 @@ footer {
 
 @media screen and (max-width: 1023px) {
   .slider {
-    margin-left: 120px !important; } }
+    margin-left: 120px !important; }
+  .osi21 {
+    height: 2250px;
+    display: flex;
+    justify-content: center; }
+    .osi21 .cards {
+      flex-direction: column !important;
+      margin-left: 0px !important; }
+      .osi21 .cards .card {
+        width: 310px !important; } }
 
 @media screen and (max-width: 500px) {
   .slider {
