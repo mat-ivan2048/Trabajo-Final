@@ -7,7 +7,7 @@
 
 .body-historia{
     background-color: yellow;
-    height: 14000px;;
+    height: 15500px;;
 }
 
 
@@ -47,6 +47,7 @@
     transition: .5s;
 }
 .Frontal{
+  font-size: 10px;
     transform: perspective(600px) rotateY(0deg);
     box-shadow: 0 5px 10px #000;
 }
@@ -282,4 +283,8 @@
   
   .card2:hover .img-content2 svg {
     fill: transparent;
+  }
+
+  .promociones{
+    margin-top: 150px;
   }
