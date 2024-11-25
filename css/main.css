@@ -413,10 +413,6 @@ table {
   display: flex;
   margin-top: 50px; }
 
-img {
-  width: 100%;
-  object-fit: cover; }
-
 #bodymat {
   margin: 0;
   padding: 0;
@@ -465,6 +461,9 @@ img {
   background-position: center center;
   background-size: cover;
   height: 100vh; }
+  #fotoFondo2 div img {
+    width: 100%;
+    object-fit: cover; }
   #fotoFondo2 #Medio {
     height: 60%;
     width: 100%;
@@ -498,6 +497,9 @@ section {
   height: 500px;
   width: 100%;
   text-align: center; }
+  section img {
+    width: 100%;
+    object-fit: cover; }
 
 section img {
   width: 0px;

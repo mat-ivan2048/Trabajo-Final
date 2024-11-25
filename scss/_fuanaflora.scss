@@ -3,11 +3,6 @@
     margin-top: 50px;
 }
 
-img{
-    width: 100%;
-    object-fit: cover;
-    
-}
 
 #bodymat{
     margin: 0;
@@ -71,6 +66,13 @@ img{
     background-position: center center;
     background-size: cover;
     height: 100vh;
+    div{
+        img{
+            width: 100%;
+            object-fit: cover;
+            
+        }
+    }
     #Medio{
         height: 60%;
         width: 100%;
@@ -113,6 +115,10 @@ section{
     display: flex;
     height: 500px;
     width: 100%;
+    img{
+        width: 100%;
+        object-fit: cover;   
+    }
     text-align: center;
 
 }
