@@ -170,7 +170,7 @@ table {
 
 .body-historia {
   background-color: yellow;
-  height: 14000px; }
+  height: 15500px; }
 
 .linea-vertical {
   height: 10000px;
@@ -408,6 +408,9 @@ table {
 
 .card2:hover .img-content2 svg {
   fill: transparent; }
+
+.promociones {
+  margin-top: 150px; }
 
 .row {
   display: flex;
