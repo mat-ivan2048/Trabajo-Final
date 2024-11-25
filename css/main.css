@@ -330,22 +330,169 @@ h2 {
   margin-left: -3px;
   z-index: -1; }
 
-#imagenmat {
-  height: 50%;
-  width: 50% !important; }
+.row {
+  display: flex;
+  margin-top: 50px; }
 
-.fauna {
+img {
+  width: 100%;
+  object-fit: cover; }
+
+#bodymat {
+  margin: 0;
+  padding: 0;
+  background-color: #002456; }
+
+.column {
+  flex: 25%;
+  padding: 5px; }
+
+.column img {
+  margin-top: 5px;
+  cursor: pointer;
+  transition: 1s;
+  background-color: wheat; }
+
+.column img:hover {
+  transform: scale(1.1); }
+
+.p {
   text-align: center;
-  align-items: center; }
+  color: white;
+  margin: 10px;
+  padding: 10px; }
 
-#h2 titulomat {
+.playas {
+  display: flex;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  border-radius: 1px; }
+
+.playas a:hover img {
+  filter: blur(2px); }
+
+.playas #imagenmat {
+  border-radius: 1px; }
+
+#fotoFondo2 {
+  background-image: url(../assets/img/riodejanerio.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh; }
+  #fotoFondo2 #Medio {
+    height: 60%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center; }
+    #fotoFondo2 #Medio h1 {
+      color: #002456 !important;
+      font-size: 55px;
+      font-family: 'Comfortaa'; }
+    #fotoFondo2 #Medio h2 {
+      font-size: 30px;
+      color: #Fadb04;
+      font-family: 'Comfortaa'; }
+  #fotoFondo2 #Flecha {
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: center;
+    align-items: start; }
+    #fotoFondo2 #Flecha #flechaimg {
+      height: 100px;
+      animation: bajar 1.5s infinite; }
+
+.h2 {
+  text-align: center;
+  color: white; }
+
+section {
+  display: flex;
+  height: 500px;
+  width: 100%;
   text-align: center; }
+
+section img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .5;
+  transition: .5s ease;
+  border-radius: 20px;
+  margin: 1%;
+  align-items: center;
+  position: center; }
+
+section img:hover {
+  width: 50%;
+  opacity: 1;
+  filter: contrast(100px); }
+
+#imagenmat {
+  border-radius: 20px;
+  transition: 0,1s; }
 
 .h1 {
-  text-align: center; }
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  color: #Fadb04 !important; }
 
-.body {
-  background-color: black; }
+.column > a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5); }
+
+.column a:hover img {
+  filter: blur(2px); }
+
+.section1 img {
+  height: 75%; }
+
+.linea {
+  background: violet;
+  height: 10px;
+  width: 100%;
+  display: block; }
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  transition: all .2s;
+  width: 100%;
+  background-image: linear-gradient(to top, rgba(83, 83, 83, 0), rgba(0, 155, 13, 0.438)); }
+  header #logo {
+    width: 16%;
+    height: 90%; }
+  header ul {
+    display: flex;
+    width: 84%;
+    justify-content: end; }
+    header ul li {
+      display: inline; }
+      header ul li a {
+        text-decoration: none !important;
+        justify-content: end;
+        padding-right: 24px;
+        color: #002456;
+        font-size: 25px; }
+
+header:hover {
+  background-color: #F2e062;
+  background-image: none; }
+  header:hover a {
+    color: #049c3c; }
 
 .boMen {
   background-color: #0143a0; }
@@ -380,35 +527,6 @@ h2 {
     #fotoFondo #Flecha #flechaimg {
       height: 100px;
       animation: bajar 1.5s infinite; }
-
-header {
-  height: 100px;
-  display: flex;
-  align-items: center;
-  transition: all .2s;
-  width: 100%;
-  background-image: linear-gradient(to top, rgba(83, 83, 83, 0), rgba(0, 155, 13, 0.438)); }
-  header #logo {
-    width: 16%;
-    height: 90%; }
-  header ul {
-    display: flex;
-    width: 84%;
-    justify-content: end; }
-    header ul li {
-      display: inline; }
-      header ul li a {
-        text-decoration: none !important;
-        justify-content: end;
-        padding-right: 24px;
-        color: #002456;
-        font-size: 25px; }
-
-header:hover {
-  background-color: #F2e062;
-  background-image: none; }
-  header:hover a {
-    color: #049c3c; }
 
 @keyframes bajar {
   from {

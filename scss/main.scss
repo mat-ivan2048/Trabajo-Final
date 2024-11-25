@@ -5,8 +5,8 @@
 @import "mundo.scss";
 @import "turismo.scss";
 @import "historia.scss";
-@import "galeria.scss";
 @import "fuanaflora.scss";
+@import "header.scss";
 .boMen{
     background-color: #0143a0;
 }
@@ -44,40 +44,6 @@
             height: 100px;
             animation: bajar 1.5s infinite;
         }
-    }
-}
-header{
-    height: 100px;
-    display: flex;
-    align-items: center;
-    transition: all .2s;
-    width: 100% ;
-    background-image: linear-gradient(to top, rgba(83, 83, 83, 0), rgba(0, 155, 13, 0.438),);
-    #logo{
-        width: 16%;
-        height: 90%;
-    }
-    ul{
-        display: flex;
-        width: 84%;
-        justify-content: end;
-        li{
-            display: inline;
-            a{
-                text-decoration: none !important;
-                justify-content: end;
-                padding-right: 24px;
-                color: #002456;
-                font-size: 25px;
-            }
-        }
-    }
-}
-header:hover{
-    background-color: #F2e062;
-    background-image: none;
-    a{
-        color: #049c3c;
     }
 }
 @keyframes bajar {
